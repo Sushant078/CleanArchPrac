@@ -22,6 +22,10 @@ annotation class PrivateToDSC
 
 @Qualifier
 @Retention(AnnotationRetention.RUNTIME)
+annotation class PrivateToDC
+
+@Qualifier
+@Retention(AnnotationRetention.RUNTIME)
 annotation class CtxMain
 
 @Scope
